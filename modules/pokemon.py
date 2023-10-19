@@ -13,7 +13,7 @@ class Pokemon:
         if self.hp <= 0:
             self.hp = 0
             self.is_fainted = True
-            print(f"{self.name} has fainted!")
+            print(f"¡{self.name} se ha debilitado!")
             self.sprite = self.fainted_sprite
         else:
-            print(f"{self.name} has {self.hp} health remaining.")
+            print(f"{self.name} tiene {self.hp} puntos de salud restantes.")
