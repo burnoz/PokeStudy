@@ -12,33 +12,33 @@ preguntas = {
     "¿Cuál es la ecuación cuadrática que tiene las soluciones x = 2 y x = -3?": ["(x - 2) * (x + 3) = 0", "(x - 2)(x + 3)"]
 }
 
-def cuestionario():
-    p = []
-    correctas = 0
-    incorrectas = 0
+# def cuestionario(q):
+#     p = []
+#     correctas = 0
+#     incorrectas = 0
 
-    while len(p) < len(preguntas):
-        pregunta = choice(list(preguntas.keys()))
+#     while len(p) < len(q):
+#         pregunta = choice(list(q.keys()))
 
-        if pregunta not in p:
-            p.append(pregunta)
+#         if pregunta not in p:
+#             p.append(pregunta)
 
-        else:
-            continue
+#         else:
+#             continue
 
-        print(pregunta)
-        respuesta = input("Respuesta: ")
+#         print(pregunta)
+#         respuesta = input("Respuesta: ")
 
-        if respuesta in preguntas[pregunta]:
-            print("Correcto")
-            correctas += 1
-            print()
+#         if respuesta in q[pregunta]:
+#             print("Correcto")
+#             correctas += 1
+#             print()
 
-        else:
-            print("Incorrecto")
-            incorrectas += 1
-            print()
+#         else:
+#             print("Incorrecto")
+#             incorrectas += 1
+#             print()
 
-    print("Fin del cuestionario")
-    print("Correctas:", correctas)
-    print("Incorrectas:", incorrectas)
+#     print("Fin del cuestionario")
+#     print("Correctas:", correctas)
+#     print("Incorrectas:", incorrectas)
