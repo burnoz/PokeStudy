@@ -1,3 +1,2 @@
-# proyecto
-
-Proyecto integrador de pensamiento computacional
+# PokeStudy
+Proyecto integrador para la materia "Pensamiento computacional para ingeniería"
