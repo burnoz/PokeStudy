@@ -7,5 +7,5 @@ preguntas = {
     "¿Cuál es una posible solución para la siguiente ecuación?\n x² + 4x - 5 = 0": ["1", "-5"],
     "¿Cuál es el valor de x en la siguiente ecuación?\n 2x - 3 = 9": ["6"],
     "¿Cuál es el resultado de la siguiente operación?\n (2 + 3) / 5 * 4 = ?": ["4"],
-    "¿Cuál es la ecuación cuadrática que tiene las soluciones x = 2 y x = -3?": ["(x-2)*(x+3)=0", "(x-2)(x+3), (x-2)*(x+3), x²+x-6=0, x²+x-6"]
+    "¿Cuál es la ecuación cuadrática que tiene las soluciones x = 2 y x = -3?": ["(x-2)*(x+3)=0", "(x-2)(x+3)", "(x-2)*(x+3)", "x²+x-6=0", "x²+x-6"]
 }
