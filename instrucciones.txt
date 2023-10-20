@@ -1,0 +1,7 @@
+¡Hola, entrenador!
+
+Bienvenido a PokeStudy, una herramienta que te ayudará a prepararte para tus pruebas académicas. Al iniciar el juego, se te presentará una pantalla en la que podrás seleccionar tu dificultad, una vez te sientas seguro de tu elección, presiona la X que se encuentra en la esquina superior izquierda, esto te llevará al menú principal, donde podrás iniciar el desafío o retirarte si aún no te sientes preparado.
+
+Una vez dentro, responde a las preguntas que se te presentan (escribe tu respuesta SIN espacios), pero ten cuidado, ¡equivocarte hará que tu compañero pierda puntos de salud! Para ganar, tendrás que hacer que los puntos de salud de tu rival bajen a 0. Una vez termine el juego, tendrás la opción de reiniciarlo o salir de este.
+
+¡Mucha suerte, entrenador!
