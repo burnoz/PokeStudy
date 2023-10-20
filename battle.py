@@ -24,7 +24,7 @@ inicio_pressed = False
 win = False
 lose = False
 
-background = pygame.image.load("images/backgrounds/background.png")
+battle_background = pygame.image.load("images/backgrounds/battle_background.png")
 victory = pygame.image.load("images/backgrounds/victory.png")
 defeat = pygame.image.load("images/backgrounds/defeat.png")
 back_button = pygame.image.load("images/buttons/back.png")
@@ -69,15 +69,15 @@ while running:
 
     if inicio_pressed:
         if not win and not lose:
-            screen.blit(background, (0, 0))
+            screen.blit(battle_background, (0, 0))
             screen.blit(squirtle.sprite, (squirtle.x, squirtle.y))
             screen.blit(charmander.sprite, (charmander.x, charmander.y))
             screen.blit(squirtle_hp, (160, 130))
-            screen.blit(charmander_hp, (20, 40))
+            screen.blit(charmander_hp, (20, 20))
             squirtle_current_hp = pygame.image.load(f"images/text/{squirtle.hp}.png")
             charmander_current_hp = pygame.image.load(f"images/text/{charmander.hp}.png")
             
-            screen.blit(charmander_current_hp, (80, 63))
+            screen.blit(charmander_current_hp, (80, 43))
             screen.blit(squirtle_current_hp, (220, 153))
 
             pygame.display.update()
